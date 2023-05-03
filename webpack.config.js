@@ -5,12 +5,12 @@ const { styles } = require('@ckeditor/ckeditor5-dev-utils');
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
     publicPath: '/',
   },
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, 'build'),
     port: 3000,
     historyApiFallback: true,
   },
