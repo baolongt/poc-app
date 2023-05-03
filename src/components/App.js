@@ -8,7 +8,7 @@ function App() {
       <h1>Test import word</h1>
       <CKEditor
         editor={ClassicEditor}
-        data="<p>a</p>"
+        data=""
         onReady={(editor) => {
           // You can store the "editor" and use when it is needed.
           console.log('Editor is ready to use!', editor);
